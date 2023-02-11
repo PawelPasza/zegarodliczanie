@@ -9,7 +9,7 @@
 		var rok = dzisiaj.getFullYear();
 		var milisekundy = dzisiaj.getTime();
 		
-		var end = new Date("12/31/2022");//data wydarzenia
+		var end = new Date("12/31/2023");//data wydarzenia
 		var endDzien = end.getDate();
 		if (endDzien<10) endDzien = "0"+endDzien;
 		var endMiesiac = end.getMonth()+1;
